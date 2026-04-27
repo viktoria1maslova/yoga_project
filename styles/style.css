@@ -53,3 +53,42 @@ nav a {
 nav a:hover {
     color: #A1B4A5;
 }
+.banner {
+    position: relative;
+}
+.banner img {
+    width: 100%;
+    opacity: 90%;
+}
+.banner_text {
+    font-family: "BlackerSans";
+    position: absolute;
+    top: 32%;
+    left: 15%;
+    font-size: 4rem;
+    color: white;
+}
+.banner_button {
+    position: absolute;
+    top: 62%;
+    left: 43%;
+}
+.banner_button button {
+    border: none;
+    background-color: #385752;
+    font-family: "BlackerSans";
+    font-size: 1.5rem;
+    padding: 14%;
+    width: 140%;
+    border-radius: 1.5rem;
+    color: white;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.banner_button a {
+    text-decoration: none;
+    color: inherit;
+}
+.banner_button button:hover {
+    color: #385752;
+    background-color: white;
+}
