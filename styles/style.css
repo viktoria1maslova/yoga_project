@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "TheCrooker";
+    src: url("../fonts/TheCrooker.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "BlackerSans";
+    src: url("../fonts/BlackerSans.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
