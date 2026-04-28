@@ -92,6 +92,64 @@ nav a:hover {
     color: #385752;
     background-color: white;
 }
+.about {
+    margin-top: 7%;
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-bottom: 5%;
+}
+.about_1 img {
+    top: 0;
+    right: 5%;
+    position: absolute;
+    width: 25%;
+    border-radius: 1.5rem;
+}
+.about_2 img {
+    top: 10%;
+    right: 20%;
+    position: absolute;
+    width: 27%;
+    border-radius: 1.5rem;
+}
+.about_text {
+    margin-top: 3%;
+    margin-left: 8%;
+    width: 40%;
+}
+.about_text h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 2%;
+    color: #385752;
+}
+.about_text p {
+    margin-top: 0;
+    text-align: justify;
+    font-size: 1.8rem;
+    color: #385752;
+    margin-bottom: 0;
+    padding-bottom: 2.4%;
+}
+.about_button button {
+    border: none;
+    background-color: #F5B6D0;
+    font-family: "BlackerSans";
+    font-size: 1.8rem;
+    padding: 3%;
+    width: 45%;
+    border-radius: 1.5rem;
+    color: white;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.about_button a {
+    text-decoration: none;
+    color: inherit;
+}
+.about_button button:hover {
+    background-color: #385752;
+}
 footer {
     width: 100%;
     text-align: center;
