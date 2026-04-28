@@ -92,3 +92,14 @@ nav a:hover {
     color: #385752;
     background-color: white;
 }
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #385752;
+}
+footer p {
+    padding: 2% 0;
+    color: white;
+    font-size: 1rem;
+    margin: 0;
+}
