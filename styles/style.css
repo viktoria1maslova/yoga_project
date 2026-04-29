@@ -194,8 +194,8 @@ nav a:hover {
     border: none;
     background-color: #F5B6D0;
     font-size: 1.5rem;
-    padding: 4%;
-    width: 60%;
+    padding: 1.5rem;
+    width: 15rem;
     border-radius: 2rem;
     color: white;
     transition: background-color 0.5s ease, color 0.5s ease;
