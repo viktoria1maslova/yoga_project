@@ -158,6 +158,65 @@ nav a:hover {
 .about_button button:hover {
     background-color: #385752;
 }
+.functions {
+    background-color: #e9f5eb;
+    color: #385752;
+    margin-top: 7%;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.function_image {
+    padding: 0 3.7%;
+    display: flex;
+    align-items: center;
+}
+.function_image img {
+    height: 55%;
+    margin-right: 5%;
+    border-radius: 1.5rem;
+}
+.function_text h3 {
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+.function_text p {
+    width: 90%;
+    margin-top: 0;
+    font-size: 1.7rem;
+    text-align: justify;
+}
+.functions button {
+    font-family: "BlackerSans";
+    border: none;
+    background-color: #F5B6D0;
+    font-size: 1.5rem;
+    padding: 4%;
+    width: 60%;
+    border-radius: 2rem;
+    color: white;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.functions a {
+    text-decoration: none;
+    color: inherit;
+}
+.functions button:hover {
+    background-color: #385752;
+}
+.right_func {
+    margin-left: 2%;
+    height: 60%;
+    margin-right: 5%;
+    border-radius: 1.5rem;
+    transition: height 0.5s ease;
+}
+.right_func:hover {
+    height: 62%;
+}
 footer {
     width: 100%;
     text-align: center;
