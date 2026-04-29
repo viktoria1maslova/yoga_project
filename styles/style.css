@@ -105,6 +105,7 @@ nav a:hover {
     position: absolute;
     width: 25%;
     border-radius: 1.5rem;
+    transition: width 0.5s ease;
 }
 .about_2 img {
     top: 10%;
@@ -112,6 +113,13 @@ nav a:hover {
     position: absolute;
     width: 27%;
     border-radius: 1.5rem;
+    transition: width 0.5s ease;
+}
+.about_1 img:hover {
+    width: 25.5%;
+}
+.about_2 img:hover {
+    width: 27.5%;
 }
 .about_text {
     margin-top: 3%;
