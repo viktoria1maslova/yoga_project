@@ -20,6 +20,26 @@
         <img src="media/logo.png">
      </header>
      <main>
+        <section class="timer">
+            <form class="timer" onsubmit="app.submit(event)">
+                <div class="info">
+                    <p>установить медитацию на 
+                        <input type="number" name="time" aria-label="Число минут для медитации" value="10">
+                    минут</p> 
+                </div>
+                <div class="countdown">
+                    <div class="num" id="min_tens">0</div>
+                    <div class="num" id="min">0</div>
+                    <div class="dots">:</div>
+                    <div class="num" id="sec_tens">0</div>
+                    <div class="num" id="sec">0</div>
+                </div>
+                <button type="submit" class="button">
+                    <img src="media/play.png" alt="иконка play">
+                </button>
+                <audio id="audio" src="media/alarm.mp3" type="audio/mp3"></audio>
+            </form>
+        </section>
     </main>
     <footer>
         <p>&copy; 2026 Май Лин Йога</p>
