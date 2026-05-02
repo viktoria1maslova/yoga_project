@@ -26,7 +26,22 @@ class App {
     }
 
     #startTimer(time) {
-    
+        const end = Date.now() + time * 1000 * 60;
+        this.#interval = setInterval(() => {
+            const now = Date.now();
+            const delta = end - now;
+            if (delta <0) {
+                document.getElementById('audio').play();
+                clearInterval(this.#interval);
+                return;
+            }
+            this.#setTimer ({
+                min_tens: Math.floor(delta / 1000 / 60 / 10),
+                min: Math.floor((delta / 1000 / 60) % 10),
+                sec_tens: Math.floor((delta % 60000) / 10000),
+                sec: Math.floor(((delta % 60000) / 1000) % 10)
+            })
+        }, 500);
     }
 
     #setTimer({ min_tens, min, sec_tens, sec }) {
