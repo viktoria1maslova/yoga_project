@@ -22,7 +22,10 @@ class App {
     }
 
     #setTimer({ min_tens, min, sec_tens, sec }) {
-
+        this.timer.min_tens.innerText = min_tens;
+        this.timer.min.innerText = min;
+        this.timer.sec_tens.innerText = sec_tens;
+        this.timer.sec.innerText = sec;
     }
 
 }
