@@ -10,7 +10,10 @@ class App {
 
     submit (event) {
         event.preventDefault();
-        
+        const formData = new FormData(event.target);
+        const time = formData.get('time');
+        this.#clearTimer()
+        this.#startTimer(time);
     }
 
     #clearTimer() {
