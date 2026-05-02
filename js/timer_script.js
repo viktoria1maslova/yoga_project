@@ -14,7 +14,15 @@ class App {
     }
 
     #clearTimer() {
-
+        if (this.#interval) {
+            clearInterval(this.#interval);
+        }
+        this.#setTimer ({
+            min_tens:0,
+            min: 0,
+            sec_tens:0,
+            sec: 0
+        })
     }
 
     #startTimer(time) {
