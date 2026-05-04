@@ -10,3 +10,33 @@
     font-weight: normal;
     font-style: normal;
 }
+header img {
+    height: 6.6rem;
+}
+nav li {
+    font-size: 1.65rem;
+}
+.asana {
+    max-width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+}
+.asana_block {
+    color: #385752;
+    padding: 2% 5.5%;
+    width: 25rem;
+}
+.asana_block h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5%;
+}
+.asana_block p {
+    color: #F32279;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+.asana_block img {
+    width: 100%;
+}
